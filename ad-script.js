@@ -17,6 +17,7 @@ window.addEventListener('load', () => {
     trackAdDimensions();
     setTimeout(() => {
         console.log('Running callbacks after 10 seconds delay.');
+        console.log(localStorage.getItem('testKeyRemote'));
         runCallbacks();
     }, 5000);
 });
