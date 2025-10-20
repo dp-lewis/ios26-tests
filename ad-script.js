@@ -17,5 +17,5 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         console.log('Running callbacks after 10 seconds delay.');
         runCallbacks();
-    }, 10000);
+    }, 5000);
 });
