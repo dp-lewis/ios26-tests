@@ -16,8 +16,8 @@ window.addEventListener('load', () => {
     localStorage.setItem('testKeyRemote', 'testValueRemote');
     trackAdDimensions();
     setTimeout(() => {
-        console.log('Running callbacks after 10 seconds delay.');
-        console.log(localStorage.getItem('testKeyRemote'));
+        console.log('Running callbacks after 5 seconds delay.');
+        console.log('Remote set storage value:', localStorage.getItem('testKeyRemote'));
         runCallbacks();
     }, 5000);
 });
