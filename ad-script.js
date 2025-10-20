@@ -13,6 +13,7 @@ function trackAdDimensions() {
 
 window.addEventListener('load', () => {
     console.log('Document loaded.');
+    trackAdDimensions
     setTimeout(() => {
         console.log('Running callbacks after 10 seconds delay.');
         runCallbacks();
