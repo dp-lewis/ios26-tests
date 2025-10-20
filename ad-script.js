@@ -13,6 +13,7 @@ function trackAdDimensions() {
 
 window.addEventListener('load', () => {
     console.log('Document loaded.');
+    localStorage.setItem('testKeyRemote', 'testValueRemote');
     trackAdDimensions();
     setTimeout(() => {
         console.log('Running callbacks after 10 seconds delay.');
